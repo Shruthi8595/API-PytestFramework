@@ -1,0 +1,62 @@
+Git Commands
+Day-To-Day Work
+Cloning New Project
+Pull from dev branch
+Create New Branch
+Checkout to Our Branch
+Check Status
+Add New File or Changed files
+Check Status
+Commit Changes to Our Branch
+Push to Our Branch
+Navigate to Azure and Raise Pull Request
+Copy URL and send it to the Approver
+
+Important
+git checkout develop : Switched to branch 'develop'
+git pull develop : Pull the latest Code to Dev Branch
+git branch Enter New Branch Name : branch got Created
+git checkout to New Branch Name : Switched to branch
+git pull origin develop : Pull the latest Code from Dev Branch to My Local Branch
+
+Cloning New Project
+Go to the Project Folder where you want to do Git Init and Right click and select Git Bash
+Git Init Project Name
+ git clone [git@ssh.dev.azure.com:v3/Mlxvsts/QA%20Automation%20Phase1/Cority] SSH copy
+Project Folder will be Created : P7112971@BLR-P7112971LP MINGW64 ~/Documents/MetrolinxProjects/Cority (main)
+
+Checkout
+Navigate to Project Folder and Right click and select Git Bash
+Checkout to dev branch : git checkout dev
+
+Create New Branch
+Git branch Name : Creates new branch
+Git checkout -b branch Name : Switch working directory to the specified branch. With -b: Git will create the specified branch if it does not exist.
+Git checkout branch Name : Switch to our branch
+git branch [-a] : List all local branches in repository. With -a: show all branches (with remote)
+git merge [from name] : Join specified [from name] branch into your current branch
+git branch -d [name] : Remove selected branch, if it is already merged into any other. -D instead of -d forces deletion
+
+Fetch Branch Name
+git fetch : Fetch changes from the remote, but not update tracking branches
+
+Pull
+Fetch changes from the remote and merge current branch with its upstream
+Git Pull Origin dev branch
+Git Pull Origin our own branch
+
+Commit
+git commit  -m "commit must have a message!" : Create a new commit from changes added to the staging area.
+
+Status
+git status : Displays the status of your working directory. Options include new, staged, and modified files. It will retrieve branch name, current commit identifier, and changes pending commit
+
+Add
+git add [file] : Add a file to the staging area. Use in place of the full file path to add all changed files from the current directory down into the directory tree
+
+
+Stash
+	git stash : used to store the changed or added data in a temporary storage file , which can be used or    removed later.
+	git  vstash list - used to check the listed files stored
+	git stash apply
+	git stash pop - removes the files from the list or delete the stashed files
