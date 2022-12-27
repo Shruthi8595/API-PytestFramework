@@ -14,8 +14,6 @@ Important Status Code
 503 : Service Unavailable
 
 
-
-
 Common Status Codes
 
 1XX : Informational : Server is Thinking through the request.
@@ -23,3 +21,5 @@ Common Status Codes
 3XX : Redirection : got redirected somewhere else
 4XX : Client Error : Page not found. Page or site couldn't be found
 5XX : Server Error : Valid request was made by client but server failed to complete the request
+
+Add Git Commands
