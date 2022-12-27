@@ -1,0 +1,23 @@
+{
+    "first_name": "Post",
+    "middle_name": "Json",
+    "age": "2",
+    "address" :
+                {
+                  "street address" :"21 2nd street",
+                  "city" : "New York",
+                  "state" : "NY",
+                  "postalCode": "10021"
+                },
+    "phoneNumber" :
+                    [
+                          {
+                            "type" : "Home",
+                            "number": "123456789"
+                          },
+                          {
+                            "type" : "Mobile",
+                            "number": "934834857394829"
+                          }
+                    ]
+}

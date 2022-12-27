@@ -1,0 +1,25 @@
+# Response Code / Status Code
+Success / Ok = 200
+Delete = 204
+Post = 201
+Put = 200
+
+Important Status Code
+200 : Success
+301 : Permanent Redirect
+302 : Temporary redirect
+404 : Not found
+410 : Gone
+500 : Internal Server error
+503 : Service Unavailable
+
+
+
+
+Common Status Codes
+
+1XX : Informational : Server is Thinking through the request.
+2XX : Success : Server gave the browser expected response
+3XX : Redirection : got redirected somewhere else
+4XX : Client Error : Page not found. Page or site couldn't be found
+5XX : Server Error : Valid request was made by client but server failed to complete the request
